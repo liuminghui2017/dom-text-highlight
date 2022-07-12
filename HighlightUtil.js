@@ -10,7 +10,7 @@
  * util.clearHighlight() // 去除高亮
  */
 
-class HighLightUtil {
+export default class HighLightUtil {
   option = {
     tag: 'span', // 包裹高亮关键字的标签
     properties: {}, // 额外的标签属性
